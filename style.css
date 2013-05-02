@@ -1,0 +1,77 @@
+@import url(http://fonts.googleapis.com/css?family=Source+Sans+Pro:400,700|Patrick+Hand);
+
+* {
+	margin: 0;
+	padding: 0;
+	position: relative;
+	list-style: none;
+	text-decoration: none;
+}
+
+body {
+	background: #ddd;
+	font-family: 'Source Sans Pro', Helvetica, Arial, sans-serif;
+	color: #555;
+}
+
+.wrapper {
+	width: 340px;
+	background: #fff;
+	padding: 40px 46px;
+	margin: 40px auto;
+	border: #bbb solid 1px;
+	border-radius: 3px;
+}
+
+h1 {
+	font-size: 78px;
+	color: #cecece;
+	margin-top: -18px;
+	text-align: center;
+}
+
+a {
+	color: #333745;
+	padding: 1px;
+	font-size: 14px;
+}
+
+a:hover {
+	background: rgba(119, 196, 211,0.4);
+}
+
+.task-list li span, .task-list input {
+	font-family: 'Patrick Hand', cursive;
+	font-size: 20px;
+}
+
+.task-list input {
+	border: none;
+	width: 300px;
+	outline: none;
+}
+
+.task-list.completed li span {
+	color: #cecece;
+}
+
+.task-list li {
+	padding: 10px 0 0 0;
+	border-bottom: 1px dashed #cecece;
+}
+
+.task-list li a {
+	padding: 4px;
+	float: right;
+	display: inline-block;
+	margin: 0 0 2px 2px;
+}
+
+.task-list li a.delete {
+	color: #ea2e49;
+}
+
+.clear-completed-tasks {
+	margin-top: 10px;
+	display: inline-block;
+}
